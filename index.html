@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Filtrando elementos por categorias</title>
+
+	<link rel="icon" href="fav-icon.png" > <!-- fav icon -->
+	<link rel="stylesheet" href="estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+
+	<script src="jquery-3.2.1.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="logo">
+				<!--<h1>Catalogo Fejusol</h1>-->
+				<a href="index.html">
+				  <img src="Imagen 1.png" width="150" height="30"/>
+				</a>
+			</div>
+			<nav class="menu">
+				<ul>
+					<li><a href="#">☰<i class="icon-abajo2"></i></a>
+						<ul class="submenu">
+							<li><a href="#" class="category_item" category="all">
+								TODO
+							</a></li>
+							<li><a href="#" class="category_item" category="ordenadores">
+								COMPUTO
+							</a></li>
+							<li><a href="#" class="category_item" category="laptops">
+								LAPTOPS
+							</a></li>
+							<li><a href="#" class="category_item" category="smartphones">
+								TELEFONOS
+							</a></li>
+							<li><a  href="#" class="category_item" category="monitores">
+								MONITORES
+							</a></li> 
+							<li><a  href="#" class="category_item" category="audifonos">
+								AUDIFONOS
+							</a></li>
+						</ul>
+					</li>
+					<li><a href="contacto.html">Contacto <i class="icon-abajo2"></i></a>
+					</li>
+					
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+
+	
+	<div class="wrap">
+		<h1>Escoge un producto</h1>
+		
+		<div class="store-wrapper">	
+			<section class="products-list">
+				<div class="product-item" category="laptops">
+					<img src="laptop_hp.jpg" alt="" >
+					<a href="#">Laptop Hp  <h3>$15,500</h3>  </a>
+				</div>
+				<div class="product-item" category="laptops">
+					<img src="laptop_toshiba.jpg" alt="" >
+					<a href="#">Laptop Toshiba  <h3>$15,500</h3>  </a>
+				</div>
+				<div class="product-item" category="smartphones">
+					<img src="samsung_galaxy.jpg" alt="" >
+					<a href="#">Samsung Galaxy <h3>$15,500</h3>  </a>
+				</div>
+				<div class="product-item" category="smartphones">
+					<img src="iphone.jpg" alt="" >
+					<a href="#">Iphone 7  <h3>$15,500</h3>  </a>
+				</div>
+				<div class="product-item" category="ordenadores">
+					<img src="pc_hp.jpg" alt="" >
+					<a href="#">PC Hp  <h3>$15,500</h3> </a>
+				</div>
+				<div class="product-item" category="ordenadores">
+					<img src="pc_lenovo.jpg" alt="" >
+					<a href="#">PC Lenovo  <h3>$15,500</h3> </a>
+				</div>
+				<div class="product-item" category="monitores">
+					<img src="monitor_asus.jpg" alt="" >
+					<a href="#">Monitor Asus  <h3>$15,500</h3> </a>
+				</div>
+				<div class="product-item" category="monitores">
+					<img src="monitor_asus.jpg" alt="" >
+					<a href="#">Monitor Asus  <h3>$15,500</h3> </a>
+				</div>
+				<div class="product-item" category="audifonos">
+					<img src="jbl.jpg" alt="" >
+					<a href="#">Audifonos JBL  <h3>$15,500</h3> </a>
+				</div>
+			</section>
+		</div>
+	</div>
+
+</body>
+</html>
